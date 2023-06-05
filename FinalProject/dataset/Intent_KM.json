@@ -1,0 +1,743 @@
+{
+    "intents": [
+      {
+        "tag": "salam",
+        "patterns": [
+          "Hai",
+          "Hi",
+          "Halo",
+          "Selamat Pagi",
+          "Selamat Siang",
+          "Selamat Malam"
+        ],
+        "responses": [
+          "Halo, ada yang bisa saya bantu?",
+          "Halo, selamat datang",
+          "Hai, salam kenal"
+        ]
+      },
+
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "bye",
+          "sampai jumpa",
+          "selamat tinggal",
+          "dadah",
+          "goodbye",
+          "sampai ketemu lagi"
+        ],
+        "responses":  [
+          "Terima kasih telah menggunakan layanan kami. Jika ada pertanyaan lain, jangan ragu untuk kembali. Sampai ketemu lagi. Jangan lupa senyum setiap hari!"
+        ]
+      },
+
+      {
+        "tag": "thanks",
+        "patterns": [
+          "terima kasih",
+          "makasih",
+          "thanks",
+          "terimakasih banyak",
+          "terima kasih ya",
+          "thank you"
+        ],
+        "responses": [
+          "Sama-sama, senang bisa membantu!",
+          "Terima kasih kembali! Apakah ada yang bisa bapeda bot bantu lagi?"
+        ]
+      },
+  
+      {
+        "tag" : "nama",
+        "patterns": [
+          "nama kamu siapa?",
+          "nama lo siapa?",
+          "lo siapa sih?",
+          "namamu siapa?",
+          "kamu itu apa?",
+          "siapa ya?",
+          "apa nama kamu?",
+          "kamu punya nama nggak?",
+          "tolong kasih tau nama kamu ya"
+        ],
+        "responses": [
+          "Halo, saya Bapeda bot, salam kenal ya",
+          "Halo, saya Bapeda Bot ada yang bisa saya bantu?"
+        ]
+      },
+  
+      {
+        "tag" : "fungsi",
+        "patterns": [
+          "Bapeda bot itu apa sih",
+          "kamu untuk apa",
+          "Apa yang bisa Bapeda bot bantu?",
+          "kamu gunanya apa",
+          "fungsi kamu apa sih"
+
+        ],
+        "responses": [
+          "Batik Pedia Bot atau Bapeda bot adalah chatbot yang dibuat untuk memberikan informasi dan edukasi seputar batik \n seperti jenis batik, sejarah batik, cara membuat batik, dan lain sebagainya.\nKamu dapat menggunakan Bapeda bot dengan mengetik pertanyaan atau kata kunci terkait batik pada kotak chat."
+        ]
+      },
+
+      {
+        "tag" : "batik",
+        "patterns": [
+          "Batik itu apa sih?",
+          "pengertian batik apa?",
+          "batik adalah",
+          "apa yang dimaksud dengan batik?"
+        ],
+        "responses": [
+          " Batik adalah seni tradisional menghias kain dengan pola atau motif yang dibuat menggunakan lilin atau teknik pewarnaan tertentu"
+        ]
+      },   
+
+      {
+        "tag" : "Asal_Batik",
+        "patterns": [
+          "Batik berasal dari negara mana?",
+          "batik aslinya dari negara mana?",
+          "batik pakaian khas dari negara mana?"
+        ],
+        "responses": [
+          "Batik berasal dari Indonesia dan telah menjadi bagian dari warisan budaya bangsa. Penemu batik pertama di Indonesia adalah K.R.T. Hardjonagoro atau lebih dikenal dengan nama Go Tik Swan. Beliau merupakan seniman asal Surakarta yang membangkitkan era seni batik klasik dan modern di Tanah Air."
+        ]
+      },
+
+
+      {
+        "tag" : "terkenal",
+        "patterns" :[
+          "Apa saja jenis batik yang terkenal di Indonesia?",
+          "batik yang terkenal di indonesia apa saja?",
+          "batik yang populer di indonesia apa saja?"
+        ],
+        "responses": [
+          "Beberapa jenis batik yang terkenal di Indonesia antara lain batik Solo, batik Pekalongan, batik Yogyakarta, batik Cirebon, dan banyak lagi."
+        ]
+      },
+
+      {
+        "tag": "jenis_batik",
+        "patterns": [
+          "Apa saja jenis batik yang ada?",
+          "jenis batik ada apa aja",
+          "batik itu apa aja sih",
+          "Batik jenis apa yang populer di Indonesia?",
+          "Jenis batik yang paling banyak diminati apa?",
+          "macam batik itu apa"
+        ],
+        "responses": [
+          "Ada beberapa jenis batik yang dikenal, di antaranya:\n\n- Batik Tulis\n- Batik Cap\n- Batik Printing\n\nBatik tulis adalah batik yang dibuat secara manual dengan menggunakan canting, sedangkan batik cap dibuat dengan menggunakan stempel atau cap. Batik printing dibuat dengan menggunakan teknologi cetak. Masing-masing jenis batik memiliki keunikan dan keindahan tersendiri."
+        ]
+      }, 
+
+      {
+        "tag": "buat_batik",
+        "patterns": [
+          "Bagaimana cara membuat batik?",
+          "Buat batik itu gimana sih?",
+          "buat batik gimana",
+          "Cara membuat batik gimana?"
+        ],
+        "responses": [
+          "Cara membuat batik tergantung pada jenis batik yang dibuat.\n- Untuk batik tulis, kain digambar dengan menggunakan canting dan malam.\n - Untuk batik cap, kain dicetak dengan menggunakan cap.\n- Batik printing dibuat dengan mencetak pola pada kain dengan menggunakan teknologi cetak."
+        ]
+      },
+
+      {
+        "tag": "beda_batik",
+        "patterns": [
+          "Apa perbedaan antara batik asli dan batik palsu?",
+          "Beda batik palsu dan asli?",
+          "Apa ciri-ciri batik asli yang membedakannya dengan batik palsu?",
+          "Bagaimana saya tahu apakah batik yang saya beli asli atau palsu?",
+          "batik asli dan palsu bedanya apa?"
+        ],
+        "responses": [
+          "Batik asli biasanya dibuat secara manual dengan menggunakan teknik tulis atau cap, sedangkan batik palsu dibuat dengan menggunakan teknologi cetak. Selain itu, batik asli biasanya memiliki kualitas yang lebih baik dan harga yang lebih tinggi daripada batik palsu. Ada beberapa ciri-ciri yang dapat membedakan batik asli dengan batik palsu, seperti keunikan motif, warna yang alami dan tahan lama, tekstur kain yang halus dan tidak teratur, serta terdapat label atau stempel yang mencantumkan produsen dan bahan yang digunakan. Pastikan untuk membeli batik dari produsen atau toko terpercaya untuk mendapatkan batik asli dengan kualitas terbaik."
+        ]
+      },
+
+      {
+        "tag": "model",
+        "patterns": [
+          "Model apa yang digunakan untuk deteksi jenis batik?",
+          "Apa model yang digunakan untuk mengenali jenis batik?",
+          "Boleh tahu algoritma model apa yang dipakai untuk deteksi jenis batik?",
+          "model kamu apa sih?",
+          "kamu pakai model apa?"
+        ],
+        "responses": [
+          "saya menggunakan teknologi Convolutional Neural Network (CNN) untuk mengenali jenis batik."
+        ]
+      },
+      
+      {
+        "tag": "cnn",
+        "patterns": [
+          "CNN itu apa?",
+          "CNN apa si?"
+        ],
+        "responses": [
+          "CNN adalah Convolutional Neural Network, yaitu salah satu jenis algoritma Deep Learning yang digunakan dalam pengolahan citra dan visualisasi."
+        ]
+      },
+
+      {
+        "tag": "manfaat_batik",
+        "patterns": [
+          "Apa manfaat dari memakai batik?",
+          "Kenapa batik penting?",
+          "Apa keuntungan memakai batik?"
+        ],
+        "responses": [
+          "Memakai batik dapat memperkuat identitas budaya, melestarikan warisan budaya, serta mendukung industri kreatif dan pengrajin batik lokal. Selain itu, batik juga memberikan nilai seni, keindahan, dan keunikan dalam setiap motif dan coraknya."
+        ]
+      },
+      
+      {
+        "tag": "Batik_Priangan",
+        "patterns": [
+          "Apa itu Batik Priangan?",
+          "Batik priangan itu apa sih?",
+          "Batik Priangan gimana?",
+          "rincian batik Priangan apa?",
+          "cara tau batik Priangan gimana?",
+          "apa yang dimaksud dengan batik Priangan"
+        ],
+        "responses": [
+          "Batik Priangan adalah jenis kain batik tradisional Indonesia yang berasal dari daerah Priangan, Jawa Barat. Asal-usul Batik Priangan berasal dari kesenian Wayang Golek di daerah Priangan yang berkembang pada abad ke-16. Proses pembuatan Batik Priangan melibatkan beberapa tahapan, seperti menyiapkan kain, membuat pola, menorehkan malam pada kain, dan memberi warna. Beberapa motif Batik Priangan yang terkenal antara lain motif buah naga, motif kupu-kupu, motif parang rusak, dan motif mawar. Batik Priangan dapat dipadukan dengan pakaian modern, seperti dress atau blouse untuk wanita, atau kemeja dan celana untuk pria."     
+        ]
+      },
+
+      {
+        "tag": "Batik_Dayak",
+        "patterns": [
+          "Apa itu Batik Dayak?",
+          "Batik Dayak itu apa sih?",
+          "Batik Dayak gimana?",
+          "rincian batik Dayak apa?",
+          "cara tau batik Dayak gimana?",
+          "apa yang dimaksud dengan batik dayak"
+        ],
+        "responses": [
+          "Batik Dayak adalah jenis kain batik tradisional Indonesia yang berasal dari suku Dayak di Kalimantan. Asal-usul Batik Dayak diduga berasal dari praktik mengecat kain dengan pewarna alami yang telah dilakukan oleh suku Dayak selama berabad-abad. Proses pembuatan Batik Dayak melibatkan beberapa tahapan, seperti menyiapkan kain, membuat pola, menorehkan malam pada kain, dan memberi warna dengan pewarna alami. Beberapa motif Batik Dayak yang terkenal antara lain motif kenyalang, motif jalai, motif burung enggang, dan motif kucing."
+        ]
+      },
+
+      {
+        "tag": "Batik_Garutan",
+        "patterns": [
+          "Apa itu Batik Garutan?",
+          "Batik Garutan itu apa sih?",
+          "Batik Garutan gimana?",
+          "rincian batik Garutan apa?",
+          "cara tau batik Garutan gimana?",
+          "apa yang dimaksud dengan batik garutan"
+        ],
+        "responses": [
+          "Batik Garutan adalah jenis kain batik tradisional Indonesia yang berasal dari Garutan, Desa Ponorogo, Jawa Timur. Asal-usul Batik Garutan tidak diketahui secara pasti, namun diperkirakan telah ada sejak masa Kerajaan Majapahit. Proses pembuatan Batik Garutan melibatkan beberapa tahapan, seperti menyiapkan kain, membuat pola, menorehkan malam pada kain, dan memberi warna. Beberapa motif Batik Garutan yang terkenal antara lain motif kawung, motif sogan, motif parang, dan motif lereng."
+        ]
+      },
+      {
+        "tag": "Batik_Keraton",
+        "patterns": [
+          "Apa itu Batik Keraton?",
+          "Batik Keraton itu apa sih?",
+          "Batik Keraton gimana?",
+          "rincian batik Keraton apa?",
+          "cara tau batik Keraton gimana?",
+          "apa yang dimaksud dengan batik keraton "
+        ],
+        "responses": [
+          "Batik Keraton adalah jenis batik tradisional Indonesia yang berasal dari Keraton Yogyakarta dan Kasunanan Surakarta. Corak dan motif Batik Keraton terinspirasi dari simbol-simbol kebudayaan Jawa, seperti gambar wayang, bunga, daun, dan binatang. Batik Keraton dibuat dengan teknik batik tulis yang memakan waktu dan kesabaran yang tinggi. Harga Batik Keraton relatif mahal karena proses pembuatannya yang rumit dan memakan waktu yang lama. Batik Keraton digunakan sebagai busana untuk upacara adat atau acara resmi lainnya, dan menjadi kebanggaan budaya Indonesia."
+        ]
+      },
+      {
+        "tag": "Batik_Sogan",
+        "patterns": [
+          "Apa itu Batik Sogan?",
+          "Batik Sogan itu apa sih?",
+          "Batik Sogan gimana?",
+          "rincian batik Sogan apa?",
+          "cara tau batik Sogan gimana?",
+          "apa yang dimaksud dengan batik sogan"
+        ],
+        "responses": [
+          "Batik Sogan adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Yogyakarta dan sekitarnya. Batik Sogan dihasilkan dengan menggunakan teknik batik tulis, di mana pengrajin menggambar motif pada kain dengan menggunakan canting atau malam secara manual. Corak dan motif pada Batik Sogan biasanya berwarna coklat tua atau kehitaman, yang dihasilkan dari pewarna alami yang diperoleh dari kulit pohon manggis atau kayu secang. Batik ini memiliki corak yang khas dan identik dengan budaya Jawa, seperti gambar wayang, motif bunga, dan binatang. Selain itu, Batik Sogan juga sering digunakan sebagai busana dalam upacara adat, acara resmi, atau pernikahan di daerah Yogyakarta."
+        ]
+      },
+      {
+        "tag": "Batik_Kawung",
+        "patterns": [
+          "Apa itu Batik Kawung?",
+          "Batik Kawung itu apa sih?",
+          "Batik Kawung gimana?",
+          "Rincian batik Kawung apa?",
+          "Cara mengenal batik Kawung?",
+          "apa yang dimaksud dengan batik kawung"
+        ],
+        "responses": [
+          "Batik Kawung adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Jawa. Motif batik Kawung menggambarkan lingkaran kecil yang disusun dalam bentuk diamond dan melambangkan buah Kawung atau kelapa muda yang melambangkan kesuburan dan kelimpahan. Warna kain batik Kawung biasanya didominasi oleh warna-warna cerah seperti merah, kuning, dan hijau dengan latar belakang warna putih atau coklat. Proses pembuatan batik Kawung menggunakan teknik batik tulis yang dilakukan secara manual oleh para pengrajin dengan menggunakan canting dan malam. Tahapannya meliputi persiapan kain, pembuatan desain motif, pewarnaan dengan pewarna alami, hingga penyelesaian batik dengan mencuci dan menjemur. Untuk mengenali batik Kawung, Anda dapat memperhatikan motif yang digunakan pada kain. Motif lingkaran kecil yang disusun dalam bentuk diamond menjadi ciri khas utama batik Kawung. Selain itu, warna cerah dan latar belakang warna putih atau coklat juga menjadi ciri khas lainnya."
+        ]
+      },
+      {
+        "tag": "Batik_Sidoluhur",
+        "patterns": [
+          "Apa itu Batik Sidoluhur?",
+          "Batik Sidoluhur itu apa sih?",
+          "Batik Sidoluhur gimana?",
+          "Rincian batik Sidoluhur apa?",
+          "Cara mengenal batik Sidoluhur?",
+          "apa yang dimaksud dengan batik Sidoluhur"
+        ],
+        "responses": [
+          "Batik Sidoluhur adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Wonogiri, Jawa Tengah. Motif batik Sidoluhur didasarkan pada sejarah dan kearifan lokal masyarakat Wonogiri, dan biasanya menggambarkan kisah-kisah legendaris, seperti cerita tentang keberanian dan kepahlawanan pahlawan nasional Indonesia. Motif pada batik Sidoluhur biasanya berupa gambar burung hantu, burung merak, dan berbagai jenis hewan dan tanaman lainnya, yang dibuat dengan detail dan kehalusan yang sangat tinggi. Warna kain batik Sidoluhur biasanya didominasi oleh warna-warna cerah dan kontras, seperti merah, hijau, kuning, dan biru, yang memberikan kesan ceria dan menyenangkan. Proses pembuatan batik Sidoluhur dilakukan dengan teknik batik tulis yang dilakukan secara manual oleh para pengrajin dengan menggunakan canting dan malam. Tahapannya meliputi persiapan kain, pembuatan desain motif, pewarnaan dengan pewarna alami, hingga penyelesaian batik dengan mencuci dan menjemur. Untuk mengenali batik Sidoluhur, Anda dapat memperhatikan motif yang digunakan pada kain. Motif burung hantu, burung merak, dan berbagai jenis hewan dan tanaman biasanya menjadi ciri khas utama batik Sidoluhur. Selain itu, warna-warna cerah dan kontras juga menjadi ciri khas lainnya."
+        ]
+      },
+      {
+        "tag": "Batik_Lasem",
+        "patterns": [
+          "Apa itu Batik Lasem?",
+          "Batik Lasem itu apa sih?",
+          "Batik Lasem gimana?",
+          "Rincian batik Lasem apa?",
+          "Cara mengenal batik Lasem?",
+          "apa yang dimaksud dengan batik Lasem"
+        ],
+        "responses": [
+          "Batik Lasem adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Lasem, Jawa Tengah. Motif batik Lasem didominasi oleh gambar bunga dan buah-buahan yang ditata rapi dan simetris. Warna kain batik Lasem didominasi oleh warna-warna cerah dan kontras, seperti merah, hijau, kuning, dan biru, yang memberikan kesan ceria dan menyenangkan. Proses pembuatan batik Lasem dilakukan dengan teknik batik tulis yang dilakukan secara manual oleh para pengrajin dengan menggunakan canting dan malam. Tahapannya meliputi persiapan kain, pembuatan desain motif, pewarnaan dengan pewarna alami, hingga penyelesaian batik dengan mencuci dan menjemur. Untuk mengenali batik Lasem, Anda dapat memperhatikan motif yang digunakan pada kain. Motif bunga dan buah-buahan yang ditata rapi dan simetris menjadi ciri khas utama batik Lasem. Selain itu, warna-warna cerah dan kontras juga menjadi ciri khas lainnya."
+        ]
+      },
+      {
+        "tag": "Batik_Sekar",
+        "patterns": [
+          "Apa itu Batik Sekar?",
+          "Batik Sekar itu apa sih?",
+          "Batik Sekar gimana?",
+          "Rincian batik Sekar apa?",
+          "Cara mengenal batik Sekar?",
+          "apa yang dimaksud dengan batik Sekar"
+        ],
+        "responses": [
+          "Batik Sekar adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Solo, Jawa Tengah. Batik Sekar terkenal dengan motif-motif geometrisnya yang khas, seperti segi empat, lingkaran, dan segitiga, serta garis-garis yang bersilangan. Warna yang digunakan pada Batik Sekar cenderung netral, seperti hitam, putih, dan abu-abu, namun juga dapat dipadukan dengan warna-warna cerah seperti merah atau kuning. Proses pembuatan Batik Sekar dilakukan dengan teknik batik tulis yang dilakukan secara manual oleh para pengrajin dengan menggunakan canting dan malam. Tahapannya meliputi persiapan kain, pembuatan desain motif, pewarnaan dengan pewarna alami, hingga penyelesaian batik dengan mencuci dan menjemur. Motif yang sering ditemukan pada Batik Sekar antara lain adalah motif bunga, daun, dan berbagai bentuk geometris. Ciri khas lainnya dari Batik Sekar adalah adanya penggunaan warna hitam pada batik, yang dikenal sebagai 'Batik Grompol'."
+        ]
+      },
+      {
+        "tag": "Batik_Parang",
+        "patterns": [
+          "Apa itu Batik Parang?",
+          "Batik Parang itu apa sih?",
+          "Batik Parang gimana?",
+          "Rincian batik Parang apa?",
+          "Cara mengenal batik Parang?",
+          "apa yang dimaksud dengan batik Parang"
+        ],
+        "responses": [
+          "Batik Parang adalah salah satu jenis batik tradisional Indonesia yang sangat terkenal. Motif batik Parang didasarkan pada filosofi Jawa tentang kehidupan, yaitu tentang kesinambungan dan keteraturan. Motif Parang biasanya berupa garis-garis diagonal yang melambangkan aliran sungai yang mengalir terus-menerus dan mengalir dalam keteraturan. Motif ini menjadi simbol penting dalam kebudayaan Jawa karena mengandung makna penting tentang kehidupan dan alam semesta. Batik Parang biasanya menggunakan warna-warna yang kontras seperti merah, hitam, putih, dan cokelat, meskipun sekarang ada juga yang menggunakan warna lain. Batik Parang berasal dari daerah Solo, Jawa Tengah, dan sekarang menjadi salah satu jenis batik yang sangat populer di Indonesia. Untuk mengenali motif Batik Parang, Anda dapat memperhatikan garis-garis diagonal yang teratur pada kain batik. "
+        ]
+      },
+      {
+        "tag": "Batik_Pekalongan",
+        "patterns": [
+          "Apa itu Batik Pekalongan?",
+          "Batik Pekalongan itu apa sih?",
+          "Batik Pekalongan gimana?",
+          "Rincian batik Pekalongan apa?",
+          "Cara mengenal batik Pekalongan?",
+          "apa yang dimaksud dengan batik Pekalongan"
+        ],
+        "responses": [
+          "Batik Pekalongan adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Pekalongan, Jawa Tengah. Batik Pekalongan memiliki ciri khas motif yang bervariasi, mulai dari motif bunga, daun, burung, dan binatang hingga motif abstrak. Warna pada kain batik Pekalongan juga sangat beragam, mulai dari warna-warna cerah hingga warna yang lebih gelap. Proses pembuatan batik Pekalongan menggunakan teknik batik cap dan batik tulis, yang dilakukan dengan sangat teliti dan terampil oleh para pengrajin batik di Pekalongan. Batik Pekalongan sering kali digunakan sebagai bahan untuk kebaya, baju kurung, dan berbagai jenis pakaian tradisional Indonesia lainnya. Untuk mengenali batik Pekalongan, Anda dapat memperhatikan motif yang digunakan pada kain, serta warna-warna yang digunakan. Batik Pekalongan memiliki keunikan dan keindahan tersendiri sehingga sangat terkenal di Indonesia dan di dunia internasional."
+        ]
+      },
+      {
+        "tag": "Batik_Megamendung",
+        "patterns": [
+          "Apa itu Batik Megamendung?",
+          "Batik Megamendung itu apa sih?",
+          "Batik Megamendung gimana?",
+          "Rincian batik Megamendung apa?",
+          "Cara mengenal batik Megamendung?",
+          "apa yang dimaksud dengan batik Megamendung "
+        ],
+        "responses": [
+          "Batik Megamendung adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Cirebon, Jawa Barat. Motif batik Megamendung biasanya berupa gambar awan mendung yang berulang-ulang pada kain batik. Awalnya, motif batik Megamendung hanya digunakan oleh kalangan kerajaan dan bangsawan sebagai lambang kemewahan dan kejayaan. Namun, seiring berjalannya waktu, batik Megamendung menjadi populer di kalangan masyarakat luas dan dijadikan sebagai simbol kemakmuran dan kebahagiaan. Warna yang umumnya digunakan pada batik Megamendung adalah warna-warna cerah seperti biru, hijau, merah, dan kuning. Teknik pembuatan batik Megamendung biasanya menggunakan teknik tulis, yang dilakukan dengan sangat teliti oleh para pengrajin batik di Cirebon. Untuk mengenali motif batik Megamendung, Anda dapat melihat pola gambar awan mendung yang berulang-ulang pada kain batik. Batik Megamendung memiliki keindahan dan keunikan tersendiri sehingga sangat terkenal di Indonesia dan di dunia internasional."
+        ]
+      },
+      {
+        "tag": "Batik_Bali",
+        "patterns": [
+          "Apa itu Batik Bali?",
+          "Batik Bali itu apa sih?",
+          "Batik Bali gimana?",
+          "Rincian batik Bali apa?",
+          "Cara mengenal batik Bali?",
+          "apa yang dimaksud dengan batik Bali"
+        ],
+        "responses": [
+          "Batik Bali adalah salah satu jenis batik tradisional Indonesia yang berasal dari Pulau Bali. Batik Bali biasanya memiliki motif yang cenderung lebih bebas dan berwarna-warni, dengan dominasi warna-warna cerah seperti merah, kuning, hijau, dan biru. Motif yang digunakan pada batik Bali biasanya terinspirasi dari kehidupan sehari-hari dan kebudayaan Bali, seperti motif kipas, daun pisang, atau motif hewan seperti burung atau kupu-kupu. Teknik pembuatan batik Bali biasanya menggunakan teknik tulis, yang dilakukan dengan sangat teliti oleh para pengrajin batik di Bali. Batik Bali sering digunakan sebagai bahan untuk busana tradisional Bali seperti kebaya, kamen, atau sarung. Untuk mengenali batik Bali, Anda dapat memperhatikan motif yang digunakan pada kain, serta warna-warna cerah yang dominan. Batik Bali memiliki keindahan dan keunikan tersendiri sehingga sangat terkenal di Indonesia dan di dunia internasional."
+        ]
+      },
+      {
+        "tag": "Batik_Ciamis",
+        "patterns": [
+          "Apa itu Batik Ciamis?",
+          "Batik Ciamis itu apa sih?",
+          "Batik Ciamis gimana?",
+          "Rincian batik Ciamis apa?",
+          "Cara mengenal batik Ciamis?",
+          "apa yang dimaksud dengan batik ciamis"
+        ],
+        "responses": [
+          "Batik Ciamis adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Ciamis, Jawa Barat. Motif batik Ciamis biasanya berupa gambar geometris yang sederhana dan tidak terlalu rumit, seperti lingkaran, kotak, atau segitiga. Warna yang umumnya digunakan pada batik Ciamis adalah warna-warna cerah seperti merah, hijau, biru, dan kuning. Teknik pembuatan batik Ciamis menggunakan teknik tulis dan cap, yang dilakukan dengan sangat teliti oleh para pengrajin batik di Ciamis. Batik Ciamis sering kali digunakan sebagai bahan untuk busana tradisional seperti kebaya atau blus. Untuk mengenal batik Ciamis, Anda dapat memperhatikan pola geometris yang digunakan pada kain batik. Batik Ciamis memiliki keunikan dan keindahan tersendiri sehingga sangat terkenal di Indonesia."
+        ]
+      },
+      {
+        "tag": "Batik_Celup",
+        "patterns": [
+          "Apa itu Batik Celup?",
+          "Batik Celup itu apa sih?",
+          "Batik Celup gimana?",
+          "Rincian batik Celup apa?",
+          "Cara mengenal batik Celup?",
+          "apa yang dimaksud dengan batik Celup"
+        ],
+        "responses": [
+          "Batik Celup adalah salah satu teknik pembuatan batik yang menggunakan teknik celup atau dyeing pada kain. Pada batik celup, pewarnaan dilakukan dengan cara mencelupkan kain ke dalam larutan pewarnaan, sehingga warna yang dihasilkan menjadi lebih meresap ke dalam serat kain. Motif yang digunakan pada batik celup biasanya bervariasi, mulai dari motif geometris hingga motif figuratif seperti bunga atau binatang. Teknik pembuatan batik celup dapat dilakukan dengan menggunakan berbagai jenis pewarna seperti pewarna alami, pewarna sintetis, atau campuran keduanya. Batik celup sering digunakan sebagai bahan untuk busana seperti baju, blus, atau sarung. Untuk mengenali batik celup, Anda dapat memperhatikan warna dan motif yang dihasilkan pada kain batik. Batik celup memiliki keindahan dan keunikan tersendiri sehingga sangat populer di Indonesia dan di dunia internasional."
+        ]
+      },
+      {
+        "tag": "Batik_Poleng",
+        "patterns": [
+          "Apa itu Batik Poleng?",
+          "Batik Poleng itu apa sih?",
+          "Batik Poleng gimana?",
+          "Rincian Batik Poleng apa?",
+          "Cara mengenal Batik Poleng?",
+          "apa yang dimaksud dengan batik Poleng"
+        ],
+        "responses": [
+          "Batik Poleng adalah salah satu jenis batik tradisional Bali yang terkenal dengan motif hitam-putihnya yang kontras. Poleng sendiri berasal dari bahasa Bali, yang memiliki arti 'dua kebalikan yang saling melengkapi'. Motif Batik Poleng biasanya terdiri dari blok hitam dan putih yang disusun secara bergantian dan berukuran sama. Makna dari motif ini adalah tentang keseimbangan dalam hidup, bahwa kebaikan dan keburukan adalah dua sisi yang saling melengkapi dan harus diterima dengan seimbang. Teknik pembuatan Batik Poleng sama seperti teknik pembuatan batik pada umumnya, yaitu dengan menuliskan/menggambar motif pada kain menggunakan malam, kemudian dicelupkan ke dalam larutan pewarna. Batik Poleng biasanya digunakan sebagai bahan untuk busana tradisional Bali seperti kamen atau sarung. Untuk mengenali Batik Poleng, Anda dapat memperhatikan motif hitam-putih yang disusun secara bergantian dan berukuran sama pada kain batik. Batik Poleng memiliki keindahan dan makna filosofis yang dalam sehingga menjadi salah satu batik tradisional yang sangat dihargai di Bali dan di dunia internasional."
+        ]
+      },
+      {
+        "tag": "Batik_Betawi",
+        "patterns": [
+          "Apa itu Batik Betawi?",
+          "Batik Betawi itu apa sih?",
+          "Batik Betawi gimana?",
+          "Rincian Batik Betawi apa?",
+          "Cara mengenal Batik Betawi?",
+          "apa yang dimaksud dengan batik Betawi"
+        ],
+        "responses": [
+          "Batik Betawi adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Betawi, Jakarta. Motif Batik Betawi biasanya terinspirasi oleh kebudayaan dan adat istiadat Betawi, seperti motif bunga melati, kembang goyang, atau motif-motif yang terinspirasi dari seni ukir. Warna yang umumnya digunakan pada batik Betawi adalah warna-warna cerah seperti merah, hijau, biru, dan kuning. Teknik pembuatan Batik Betawi menggunakan teknik tulis dan cap, yang dilakukan dengan sangat teliti oleh para pengrajin batik di Betawi. Batik Betawi sering kali digunakan sebagai bahan untuk busana tradisional seperti kebaya atau blus. Untuk mengenal Batik Betawi, Anda dapat memperhatikan motif-motif yang digunakan pada kain batik. Batik Betawi memiliki keunikan dan keindahan tersendiri sehingga sangat terkenal di Indonesia."
+        ]
+      },
+      {
+        "tag": "Batik_Pala",
+        "patterns": [
+          "Apa itu Batik Pala?",
+          "Batik Pala itu apa sih?",
+          "Batik Pala gimana?",
+          "Rincian Batik Pala apa?",
+          "Cara mengenal Batik Pala?",
+          "apa yang dimaksud dengan batik Pala"
+        ],
+        "responses": [
+          "Batik Pala adalah salah satu jenis batik tradisional Indonesia yang berasal dari daerah Pala, Aceh. Motif Batik Pala biasanya terinspirasi oleh keindahan alam Aceh seperti pohon pinus, bunga raflesia, atau burung enggang. Warna yang umumnya digunakan pada batik Pala adalah warna-warna alam seperti cokelat, hijau, hitam, dan putih. Teknik pembuatan Batik Pala menggunakan teknik tulis dan cap yang dilakukan oleh pengrajin batik yang sangat terampil di Aceh. Batik Pala sering kali digunakan sebagai bahan untuk busana tradisional Aceh seperti baju kurung atau sarung. Untuk mengenal Batik Pala, Anda dapat memperhatikan motif-motif yang digunakan pada kain batik. Batik Pala memiliki keunikan dan keindahan tersendiri sehingga sangat dihargai di Aceh dan di seluruh Indonesia."
+        ]
+      },
+
+      {
+        "tag": "warna_batik",
+        "patterns": [
+          "Apa saja warna yang umum digunakan dalam batik?",
+          "warna yang bisanya dipakai untuk batik?",
+          "warna batik apa saja?"
+        ],
+        "responses":[
+          "Warna yang umum digunakan dalam batik antara lain biru, merah, kuning, hijau, cokelat, dan hitam. Namun, batik juga dapat menggunakan berbagai kombinasi warna yang indah."
+        ]
+      },
+
+      {
+        "tag": "Merawat_batik",
+        "patterns":[
+          "Bagaimana cara merawat batik?",
+          "cara merawat batik bagaimana?",
+          "kamu tau ga cara ngerawat batik?"
+        ],
+        "responses" : [
+          "Untuk merawat batik, sebaiknya dicuci dengan tangan menggunakan deterjen yang lembut. Jangan menggunakan pemutih atau bahan kimia keras lainnya. Hindari terkena sinar matahari langsung dan setrika dengan suhu rendah."
+        ]
+      },
+
+      {
+        "tag": "Noda_kotoran_batik",
+        "patterns":[
+          "Bagaimana cara membersihkan noda pada batik?",
+          "bagaimana menghilangkan noda pada batik?",
+          "menghilangkan kotoran pada batik?",
+          "bagimana menghilangkan kotoran pada batik"
+        ],
+        "responses":[
+          "Untuk membersihkan noda pada batik, sebaiknya gunakan deterjen yang lembut dan bersihkan secara lembut dengan tangan. Hindari menggosok atau merendam batik terlalu lama."
+        ]
+      },
+
+      {
+        "tag": "Batik Kombinasi",
+        "patterns":[
+          "Apa itu batik kombinasi?",
+          "batik kombinasi bagaimana?",
+          "batik kombinasi adalah",
+          "kamu tau ga apa itu batik kombinasi?",
+          "Apa yang dimaksud dengan batik kombinasi?"
+        ],
+        "responses":[
+          "Batik kombinasi adalah batik yang menggunakan dua atau lebih warna yang dipadukan dengan harmonis dalam satu kain, menciptakan efek visual yang menarik."
+        ]
+      },
+
+      {
+        "tag": "Teknik_pewarnaan_batik",
+        "patterns": [
+          "Apa saja teknik pewarnaan yang digunakan dalam pembuatan batik?",
+          "Teknik pewarnaan apa saja yang digunakan dalam batik?",
+          "Bagaimana proses pewarnaan batik dilakukan?",
+          "Berapa banyak teknik pewarnaan yang umum digunakan dalam batik?"
+        ],
+        "responses": [
+          "Beberapa teknik pewarnaan batik yang umum digunakan adalah celup, tulis, cap, dan printing."
+        ]
+      },
+      
+      {
+        "tag": "batik_encim",
+        "patterns": [
+          "Apa yang dimaksud dengan batik encim?",
+          "Bisakah kamu menjelaskan tentang batik encim?",
+          "Bagaimana karakteristik batik encim?"
+        ],
+        "responses": [
+          "Batik encim adalah batik yang berasal dari Tionghoa-Indonesia. Motif dan warnanya dipengaruhi oleh budaya Tionghoa, tetapi tetap mempertahankan teknik batik tradisional."
+        ]
+      },
+      
+      {
+        "tag": "simbol_identitas_budaya",
+        "patterns": [
+          "Bagaimana batik dapat menjadi simbol identitas budaya suatu daerah?",
+          "Mengapa batik dianggap sebagai simbol identitas budaya?",
+          "Apa yang membuat batik menjadi simbol identitas lokal?"
+        ],
+        "responses": [
+          "Setiap daerah di Indonesia memiliki motif dan gaya batik yang khas, mencerminkan budaya, sejarah, dan kearifan lokal. Hal ini menjadikan batik sebagai simbol identitas budaya yang kuat."
+        ]
+      },
+      {
+        "tag": "proses_malam",
+        "patterns": [
+          "Apa yang dimaksud dengan proses malam dalam pembuatan batik?",
+          "Bagaimana tahap malam dalam pembuatan batik?",
+          "Jelaskan proses malam dalam batik.",
+          "apa itu proses malam?",
+          "proses malam pada batik apa?"
+        ],
+        "responses": [
+          "Proses malam adalah tahap dalam pembuatan batik di mana kain yang telah digambar dengan canting akan ditutupi dengan lapisan malam (lilin) sebelum dicelupkan ke dalam pewarnaan."
+        ]
+      },
+      
+      {
+        "tag": "penggunaan_batik",
+        "patterns": [
+          "Apakah batik hanya digunakan sebagai kain?",
+          "Apa saja produk yang menggunakan batik selain kain?",
+          "Bagaimana batik digunakan dalam industri fashion dan desain interior?",
+          "apakah batik hanya digunakan pada kain saja?"
+        ],
+        "responses": [
+          "Selain sebagai kain, batik juga digunakan untuk berbagai produk seperti pakaian, tas, aksesori, hiasan dinding, dan lain-lain. Batik juga digunakan dalam industri fashion dan desain interior."
+        ]
+      },
+      {
+        "tag": "menjaga_keaslian_batik",
+        "patterns": [
+          "Bagaimana cara menjaga keaslian batik dalam era modern ini?",
+          "Apa yang perlu dilakukan untuk mempertahankan keaslian batik?",
+          "Bagaimana menjaga autentisitas batik di zaman sekarang?"
+        ],
+        "responses": [
+          "Penting untuk membeli batik dari produsen atau toko yang terpercaya, memperhatikan ciri-ciri khas batik asli, dan mengenali motif-motif tradisional yang memiliki makna dan sejarah."
+        ]
+      },
+      
+      {
+        "tag": "batik_lereng",
+        "patterns": [
+          "Apa yang dimaksud dengan motif batik Lereng?",
+          "Bagaimana karakteristik motif batik Lereng?",
+          "Jelaskan tentang motif batik Lereng.",
+          "Apa itu batik Lereng"
+        ],
+        "responses": [
+          "Motif batik Lereng memiliki pola garis diagonal yang miring dan memberikan kesan gerak dan dinamika pada kain batik."
+        ]
+      },
+      
+      {
+        "tag": "industri_batik_berkelanjutan",
+        "patterns": [
+          "Bagaimana batik dapat menjadi industri yang berkelanjutan?",
+          "Apa yang diperlukan agar batik menjadi industri berkelanjutan?",
+          "Bagaimana mengembangkan keberlanjutan dalam industri batik?"
+        ],
+        "responses": [
+          "Dengan mendukung pengrajin batik lokal, mengembangkan desain yang inovatif, dan mengedepankan prinsip produksi yang ramah lingkungan, batik dapat menjadi industri yang berkelanjutan."
+        ]
+      },
+      {
+        "tag": "peran_generasi_muda",
+        "patterns": [
+          "Bagaimana peran generasi muda dalam melestarikan dan mengembangkan batik?",
+          "Apa yang bisa generasi muda lakukan untuk melestarikan batik?",
+          "Bagaimana kontribusi generasi muda dalam pengembangan batik?"
+        ],
+        "responses": [
+          "Generasi muda memiliki peran penting dalam melestarikan dan mengembangkan batik dengan mengapresiasi, mempelajari, dan menciptakan desain baru yang menggabungkan unsur tradisional dengan sentuhan modern."
+        ]
+      },
+      
+      {
+        "tag": "batik_nitik",
+        "patterns": [
+          "Apa yang dimaksud dengan motif batik Nitik?",
+          "Bagaimana karakteristik motif batik Nitik?",
+          "Jelaskan tentang motif batik Nitik.",
+          "Apa itu batik nitik"
+        ],
+        "responses": [
+          "Motif batik Nitik terdiri dari titik-titik kecil yang tersebar secara acak atau membentuk pola tertentu pada kain batik. Motif ini menciptakan efek visual menarik."
+        ]
+      },
+      {
+        "tag": "teknik_batik_tulis",
+        "patterns": [
+          "Apa yang dimaksud dengan teknik batik tulis?",
+          "Bagaimana cara membuat batik menggunakan teknik tulis?",
+          "Jelaskan tentang teknik batik tulis.",
+          "Apa itu batik tulis"
+        ],
+        "responses": [
+          "Teknik batik tulis adalah metode pembuatan batik yang dilakukan secara manual dengan menggunakan canting, yaitu alat yang terbuat dari pipa kecil yang dilengkapi dengan reservoir lilin panas untuk menggambar motif pada kain."
+        ]
+      },
+      
+      {
+        "tag": "perbedaan_batik_jawa_sumatra",
+        "patterns": [
+          "Apa yang membedakan batik Jawa dengan batik Sumatra?",
+          "Bagaimana karakteristik batik Jawa dibandingkan dengan batik Sumatra?",
+          "Jelaskan perbedaan antara batik Jawa dan batik Sumatra.",
+          "beda batik jawa dab sumatra apa"
+        ],
+        "responses": [
+          "Batik Jawa umumnya memiliki motif yang lebih halus dan detail dengan dominasi warna-warna lembut, sedangkan batik Sumatra cenderung memiliki motif yang lebih besar, berani, dan warna-warni cerah."
+        ]
+      },
+      
+      {
+        "tag": "batik_cap",
+        "patterns": [
+          "Apa yang dimaksud dengan batik Cap?",
+          "Bagaimana cara membuat batik menggunakan teknik Cap?",
+          "Jelaskan tentang batik Cap.",
+          "batik celup itu apa"
+        ],
+        "responses": [
+          "Batik Cap adalah jenis batik yang motifnya dicetak menggunakan cap, yaitu cetakan yang terbuat dari tembaga yang telah diukir dengan pola motif tertentu."
+        ]
+      },
+
+      {
+        "tag": "batik_ceplok",
+        "patterns": [
+          "Apa yang dimaksud dengan motif batik Ceplok?",
+          "Bagaimana karakteristik motif batik Ceplok?",
+          "Jelaskan tentang motif batik Ceplok.",
+          "apa itu batik ceplok"
+        ],
+        "responses": [
+          "Motif batik Ceplok terdiri dari pola geometris seperti kotak, segi empat, atau persegi panjang yang saling berhubungan."
+        ]
+      },
+      
+      {
+        "tag": "batik_truntum",
+        "patterns": [
+          "Apa yang dimaksud dengan motif batik Truntum?",
+          "Bagaimana karakteristik motif batik Truntum?",
+          "Jelaskan tentang motif batik Truntum.",
+          "Apa itu batik truntum"
+        ],
+        "responses": [
+          "Motif batik Truntum memiliki pola geometris berupa garis-garis melengkung yang melambangkan keberanian, keberuntungan, dan kekuatan."
+        ]
+      },
+
+      {
+        "tag": "batik_lereng_wijilan",
+        "patterns": [
+          "Apa yang dimaksud dengan motif batik Lereng Wijilan?",
+          "Bagaimana karakteristik motif batik Lereng Wijilan?",
+          "Jelaskan tentang motif batik Lereng Wijilan.",
+          "apa itu batik Lereng Wijilan"
+        ],
+        "responses": [
+          "Motif batik Lereng Wijilan berasal dari Yogyakarta dan memiliki pola garis diagonal yang miring dengan hiasan tambahan berupa bunga dan daun."
+        ]
+      },
+      
+      {
+        "tag": "perbedaan_batik_tulis_dan_cetak",
+        "patterns": [
+          "Bagaimana cara membedakan batik tulis dengan batik cetak?",
+          "Apa perbedaan antara batik tulis dan batik cetak?",
+          "Jelaskan perbedaan antara batik yang dibuat secara tulis dan batik yang dicetak.",
+          "beda batik tulis dan cetak apa?"
+        ],
+        "responses": [
+          "Batik tulis dibuat secara manual dengan tangan menggunakan canting, sementara batik cetak dibuat dengan metode mencetak motif pada kain menggunakan teknologi cetak."
+        ]
+      },
+      
+      {
+        "tag": "batik_udan_liris",
+        "patterns": [
+          "Apa yang dimaksud dengan motif batik Udan Liris?",
+          "Bagaimana karakteristik motif batik Udan Liris?",
+          "Jelaskan tentang motif batik Udan Liris.",
+          "Apa itu Batik Udan Liris?"
+        ],
+        "responses": [
+          "Motif batik Udan Liris berasal dari Solo dan memiliki pola berupa hujan yang melambangkan harapan akan keberkahan dan kelimpahan rezeki."
+        ]
+      }
+      
+      
+      
+      
+       
+      
+      
+
+    ]
+ }
+  
